@@ -7,8 +7,8 @@ url: https://gilntk.github.io/uvkqsg
 aux_links:
   Template Repository: https://github.com/gilntk/uvkqsg
 
-nav_enabled: true
+# nav_enabled: true
 
 
-plugins:
+# plugins:
 #  - jekyll-sitemap
