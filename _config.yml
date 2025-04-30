@@ -6,3 +6,12 @@ url: https://gilntk.github.io/uvkqsg
 
 aux_links:
   Template Repository: https://github.com/gilntk/uvkqsg
+
+nav_enabled: true
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
