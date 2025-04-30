@@ -6,7 +6,6 @@ layout: default
 
 One of the draws of using custom firmware on the UV-K5 is that it can unlock a lot of additional functionality and improvements that go far beyond what the stock firmware offers. Also, if you're into radio and gadgets - it's just cool to mess with your gear. So I'll present the briefest of overviews.
 
-* egzummer
 | Firmware/Dev's Name | Description |
 |---------------|-------------|
 |[egzummer](https://github.com/egzumer/uv-k5-firmware-custom/releases/tag/v0.22) |Last build was January 2022|
