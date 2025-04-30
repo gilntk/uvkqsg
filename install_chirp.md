@@ -1,4 +1,3 @@
-
 ---
 title: Install CHIRP
 parent: Get CHIRP First

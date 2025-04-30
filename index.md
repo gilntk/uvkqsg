@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About this site
 layout: default
 # nav_order: 1
 ---

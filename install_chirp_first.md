@@ -1,26 +1,13 @@
 ---
-title: Install CHIRP
-parent: Get CHIRP First
-nav_order: 1
+title: Get CHIRP First
+nav_order: 3
+layout: default
 ---
 
-# Install CHIRP
+# You need CHIRP!!!
 
-CHIRP supports the UV-K6 out of the box. If you want to use CHIRP with the *armel/uv-k5-firmware-custom* firmware you need to install a custom script in CHIRP first. This script gives you the ability to directly configure the radio for the changes that the firmware implements. Other firmwares may require their own scripts to be added to CHIRP for full support. Here are quick links for how to install CHRIP:
+You are reading this documentation in 2025 or later. In this day in age we have some amazing user interfaces that simplify the most complex procedures. Well if you look at your UV-K5 you'll notice that it has 19 buttons and a non-touch screen. I don't think it's a stretch to say that programing your HT is convoluted and slow. That said, there's a way around it's native interface that will let you quickly configure your radio. It's a piece of software called [CHIRP](https://chirpmyradio.com/projects/chirp/wiki/Home). which is a free, open-source tool for programming your radio.
 
-* [Basic CHIRP Download](https://chirpmyradio.com/projects/chirp/wiki/Download)
-* [Specific CHIRP driver for armel/uv-k5-firmware-custom](https://github.com/armel/uv-k5-chirp-driver)
+CHIRP allows you to easily configure frequency settings, channels, power levels, and other radio parameters from a computer, rather than manually entering them on the radio itself. Instead of navigating through small radio screens and complex button sequences, CHIRP provides a user-friendly spreadsheet-like interface for managing frequencies and settings. Luckily you can use CHIRP on Windows, MacOS, and Linux.
 
-## Set up CHIRP to use your radio
-
-Once CHIRP is installed you need to do a few things before you can program your radio.
-
-1) Connect your programming cable to the computer and ensure that it registers as a valid device.
-2) Start up CHIRP and ensure it can communicate with CHIRP. If step 1 completes, then this step probably is fine.
-3) Plug the programming cable into your radio.
-4) Configure CHIRP to use your radio.
-   - With an unmodified UV-K6, Click *Radio > Download from Radio...* and the Communicate with radio dialog opens. The programming cable should show in the Port drop down, and from here you will select the Quanshang UV-K5
-   - With a UV-K6 running the *armel/uv-k5-firmware-custom* firmware, you need to set CHIRP to use developer mode and install a Python module from the linked page. You then need to access the *Radio > Download from Radio...* menu, ensure your cable is visible to CHIRP and set it to use the modified radio profile. I'm sure there's a video I can link to here.
-5) After step 3 completes, you'll be presented with the spreadsheet view of your radio's channel memories, and you can program and customize from here.
-
-Getting through the above steps will make programming your radio so much easier than programing it with the radio's keypad. 
+Before you install CHIRP, you'll need a programming cable to send and receive data from the UV-K5. You'll have to buy a a K-plug programming cable - it's the standard tool needed to program CHIRP. It's a type of radio programming cable that features a dual 3.5mm and 2.5mm plug in a single molded connector, resembling the Kenwood-style speaker/mic jack. In addition to Quansheng, this type of cable is commonly used with many other brands like Baofeng, Kenwood, Wouxun, TYT, and Retevis. Just search for _baofeng programming cable_ on your favorite retailer's website. It will look like this: ![picture of K-plug programming cable](images/baofeng.png)
