@@ -1,8 +1,7 @@
-
 ---
 title: Home
-layout: home
-nav_order: 1
+layout: default
+# nav_order: 1
 ---
 
 Welcome to the UV-K5(8) / UV-K6 Quick Start Guide!
